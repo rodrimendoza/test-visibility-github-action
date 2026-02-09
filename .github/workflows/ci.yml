@@ -11,6 +11,9 @@ on:
 permissions:
   contents: read
 
+env:
+  MY_VAR: ${{ vars.DD_GIT_REPOSITORY_URL }}
+
 jobs:
   test-action:
     name: GitHub Actions Test
