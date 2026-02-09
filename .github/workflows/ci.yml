@@ -12,7 +12,7 @@ permissions:
   contents: read
 
 env:
-  MY_VAR: ${{ vars.DD_GIT_REPOSITORY_URL }}
+  DD_GIT_REPOSITORY_URL: ${{ vars.DD_GIT_REPOSITORY_URL }}
 
 jobs:
   test-action:
